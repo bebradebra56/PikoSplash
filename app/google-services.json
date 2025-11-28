@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "951579755714",
+    "project_id": "chickranch",
+    "storage_bucket": "chickranch.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951579755714:android:e2dc36fc49b0bf3cb0a75b",
+        "android_client_info": {
+          "package_name": "com.pikosplash.hydroballs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKRcvlvE_FFYsDHPEw7GKm6-5pBKMVJ7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

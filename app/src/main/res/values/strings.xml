@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Piko Splash</string>
+    <string name="notification_channel_name">Water Reminders</string>
+    <string name="notification_channel_description">Reminders to drink water</string>
+    <string name="notification_title">Time to Hydrate! 💧</string>
+    <string name="notification_text">Don\'t forget to drink a glass of water</string>
+</resources>

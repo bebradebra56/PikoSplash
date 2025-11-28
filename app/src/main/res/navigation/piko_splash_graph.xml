@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/piko_splash_graph"
+    app:startDestination="@id/pikoSplashLoadFragment">
+
+    <fragment
+        android:id="@+id/pikoSplashLoadFragment"
+        android:name="com.pikosplash.hydroballs.keopge.presentation.ui.load.PikoSplashLoadFragment"
+        android:label="PikoSplashLoadFragment" >
+        <action
+            android:id="@+id/action_pikoSplashLoadFragment_to_pikoSplashV"
+            app:destination="@id/pikoSplashV"
+            app:popUpTo="@id/piko_splash_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/pikoSplashV"
+        android:name="com.pikosplash.hydroballs.keopge.presentation.ui.view.PikoSplashV"
+        android:label="PikoSplashV" />
+</navigation>
