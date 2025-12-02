@@ -66,7 +66,7 @@ class PikoSplashPushService : FirebaseMessagingService(){
             this,
             0,
             pikoSplashIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
         val pikoSplashNotification = NotificationCompat.Builder(this, PIKO_SPLASH_CHANNEL_ID)
